@@ -1,0 +1,98 @@
+.Logo{
+    width: 100vw;
+    max-height: 20vh;
+    padding: 0 20px;
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+}
+
+.Logo img{
+    height: 100%;
+    width: calc(20vw + 20px);
+}
+
+.Logo::before{
+    content: "";
+    position: absolute;
+    background-color: #F2C744;
+    height: calc(1vh - 2px);
+    width: 60vw;
+    top: 100%;
+}
+
+.Principal{
+    width: 100vw;
+    height: 75vh;
+    color: #fff;
+    padding: 10px 25px;
+}
+
+.Text{
+    font-size: clamp(30px, 6vw, 300px);
+    width: 85vw;
+    padding: 15px;
+}
+
+.BotaoLink{
+    text-decoration: none;
+    color: #fff;
+    border: #F2C744 double 8px;
+    width: 45%;
+    font-size: clamp(10px, 2.5vw, 300px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #101010;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: ease-in 100ms;
+}
+
+.BotaoLink:hover{
+    transform: scale(1.05);
+    border: #f2c711 solid 4px;
+    background-color: #000;
+    border-radius: 15px;
+    transition: ease 100ms;
+    padding: 20px;
+}
+
+.botoes{
+    width: 70vw;
+    height: 15vh;
+    padding: 15px;
+    gap: 20px;
+    display: flex;
+}
+
+.Links{
+    display: none;
+    justify-content: space-between;
+    transition: ease 1s;
+    transform: scale(0.2);
+}
+
+.Links li{
+    text-decoration: none;
+    list-style: none;
+    width: 20%;
+    height: 20%;
+    transform: scale(0.7);
+}
+
+.Links img{
+    height: 60%;
+    width: 100%;
+}
+
+#contatosLink:hover > .Links{
+    display: flex;
+    transition: ease 1s;
+    transform: scale(1);
+}
+
+#contatosLink:hover > .contatosVi{
+    display: none;
+    transition: ease 1s;
+}

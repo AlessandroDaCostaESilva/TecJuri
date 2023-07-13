@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/Visitacao.css">
+    <link rel="stylesheet" href="../CSS/global.css">
+    <title>VISITAÇÃO</title>
+</head>
+<body>
+    <div class="Background"></div>
+    <header class="Logo">
+      <img src="../image/Logo.svg" alt="II happy hour jurídico">
+    </header>
+    <form action="get" class="formulario">
+      <div class="neutroDados">
+        <h2>INFORME SEUS DADOS</h2>
+        <div class="DadosP">
+          <label for="name">Nome</label>
+          <input type="text" id="name">
+          <label for="CPF">CPF</label>
+          <input type="text" id="CPF">
+        </div>
+      </div>
+      <section class="PVisitas">
+        <div class="Visitacao">
+          <div class="textoInforma">
+            <p>Título da apresentação</p>
+            <p>Turma</p>
+          </div>
+          <div class="Secoes">
+            <label class="HorarioSecao" for="Confirmar-P" id="PrimeiraSecao">
+              Primeira seção</br>
+              <span>18h - 19h</span>
+            </label>
+            <label class="HorarioSecao" for="confirmar-S" id="SegundaSecao">
+              Segunda seção</br>
+              <span>19h - 20h</span>
+            </label>
+
+        </div>
+      </section>
+      <div class="LayoutBotao">
+        <input type="submit" class="BotaoEnviar">
+      </div>
+    </form>
+    <script src="../JS/index.js"></script>
+</body>
+</html>

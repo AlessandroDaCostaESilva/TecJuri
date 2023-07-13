@@ -1,0 +1,18 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(https://www.tst.jus.br/documents/25367803/27622356/GettyImages-1213731993.jpg/905571f2-2fa6-49c7-e4c6-dd897a63e8ee?t=1631832230447) 10% 55%;
+}
+body::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:linear-gradient( rgba(0, 0, 0, 0.508), #000);
+    z-index: -1;
+}

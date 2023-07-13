@@ -1,0 +1,41 @@
+@media (max-width: 750px){
+    /*Página principal*/
+    .botoes{
+        height: 30vh;
+        width: 80vw;
+        flex-direction: column;
+    }
+    .BotaoLink{
+        height: 40%;
+        width: 100%;
+        text-align: center;
+    }
+    .Logo{
+        justify-content: center;
+    }
+
+    .Principal{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+    }
+    .Links li{
+        transform: scale(0.6);
+    }
+
+    .mainB{
+        background-position: 37% 40%;
+    }
+
+    /*Página das leis*/
+    .card{
+        width: 50vw;
+        padding: 15px;
+    }
+
+    .number{
+        width: calc(4vw + 10px);
+        height: calc(3vh + 2px);
+    }
+}
